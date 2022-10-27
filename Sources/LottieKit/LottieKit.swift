@@ -4,8 +4,7 @@ import Lottie
 public struct LottieView: UIViewRepresentable {
     
     public init(file: String) {
-        self.lottieFileName = file
-        self.loopMode = .loop
+        self.init(file: file, loopMode: .loop)
     }
 
     public init(file: String, loopMode: LottieLoopMode) {
