@@ -9,7 +9,7 @@ import SwiftUI
 import LottieKit
 
 enum LottieFile: String {
-    case diamond
+    case diamond = "demo-file"
 }
 struct ContentView: View {
     var body: some View {

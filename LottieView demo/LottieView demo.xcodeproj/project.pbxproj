@@ -12,7 +12,7 @@
 		373B426A290AA31500B6A973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373B4269290AA31500B6A973 /* Assets.xcassets */; };
 		373B426D290AA31500B6A973 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373B426C290AA31500B6A973 /* Preview Assets.xcassets */; };
 		373B4280290AA42800B6A973 /* LottieKit in Frameworks */ = {isa = PBXBuildFile; productRef = 373B427F290AA42800B6A973 /* LottieKit */; };
-		373B4282290AA43D00B6A973 /* diamond.json in Resources */ = {isa = PBXBuildFile; fileRef = 373B4281290AA43D00B6A973 /* diamond.json */; };
+		37436CBB290AAC470054630F /* demo-file.json in Resources */ = {isa = PBXBuildFile; fileRef = 37436CBA290AAC470054630F /* demo-file.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		373B4269290AA31500B6A973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		373B426C290AA31500B6A973 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		373B427D290AA41D00B6A973 /* LottieKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = LottieKit; path = ..; sourceTree = "<group>"; };
-		373B4281290AA43D00B6A973 /* diamond.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = diamond.json; sourceTree = "<group>"; };
+		37436CBA290AAC470054630F /* demo-file.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "demo-file.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				373B4265290AA31400B6A973 /* LottieView_demoApp.swift */,
 				373B4267290AA31400B6A973 /* ContentView.swift */,
+				37436CBA290AAC470054630F /* demo-file.json */,
 				373B4269290AA31500B6A973 /* Assets.xcassets */,
-				373B4281290AA43D00B6A973 /* diamond.json */,
 				373B426B290AA31500B6A973 /* Preview Content */,
 			);
 			path = "LottieView demo";
@@ -151,8 +151,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37436CBB290AAC470054630F /* demo-file.json in Resources */,
 				373B426D290AA31500B6A973 /* Preview Assets.xcassets in Resources */,
-				373B4282290AA43D00B6A973 /* diamond.json in Resources */,
 				373B426A290AA31500B6A973 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
