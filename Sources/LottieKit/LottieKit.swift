@@ -3,9 +3,9 @@ import Lottie
 
 public struct LottieView: UIViewRepresentable {
     
-    var lottieFileName: String
+    public var lottieFileName: String
     
-    var loopMode: LottieLoopMode = .autoReverse
+    public var loopMode: LottieLoopMode = .autoReverse
 
     public func makeUIView(context: UIViewRepresentableContext<LottieView>) -> UIView {
         let view = UIView(frame: .zero)
