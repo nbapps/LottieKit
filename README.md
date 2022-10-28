@@ -1,5 +1,7 @@
 # LottieKit
 
+SwiftUI wrapper of Lottie lib from airbnb
+
 SPM: add `https://github.com/nbapps/LottieKit.git` package
 
 A description of this package.
